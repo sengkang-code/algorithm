@@ -1,0 +1,19 @@
+import math
+
+nk = input()
+numbers = []
+number = inputz() 
+numbers.append(number)
+nkvalue = nk.split(' ')
+
+nvalue = nkvalue[0]
+kvalue = nkvalue[1]
+n = int(nvalue)
+k = int(kvalue)
+
+s = n - k
+x = s/(k-1)
+sol1 = math.ceil(x)
+
+finalans = 1 + sol1
+print(finalans)
